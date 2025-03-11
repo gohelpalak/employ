@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .error {
+        color: red;
+    }
+</style>
+
+<body>
+    <!-- <span class="error" id="err"></span> -->
+    <form action="" id="employ">
+        <input type="text" id="name" placeholder="Enter your name">
+        <span class="error" id="nameerr"></span>
+
+        <br><br>
+        <input type="text" id="age" placeholder="Enter your age">
+        <span class="error" id="ageerr"></span>
+        <br><br>
+        <input type="text" id="salary" placeholder="Enter your salary">
+        <span class="error" id="salaryerr"></span>
+        <br><br>
+        <input type="submit">
+    </form>
+    <br><br>
+
+    <input type="text" name="" id="search" onkeyup="searchData()">
+    <br><br>
+
+    <select onchange="hendalsort()" id="sort" >
+        <option value="#">--select sorting--</option>
+        <option  value="a-z" > a-z</option>
+        <option value="z-a">z-a</option>
+        <option value="lh" >low to high</option>
+        <option value="hl">hight to low</option>
+    </select>
+    <br><br>
+
+    <div id="printtable"></div>
+    <!-- <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Salary</th>
+        </tr> -->
+
+    <!-- </table> -->
+
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam adipisci omnis asperiores dolorum, nesciunt quos velit, fuga sit dicta sunt nisi tempora rem culpa rerum similique nulla magnam? Ullam, quae.</p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
