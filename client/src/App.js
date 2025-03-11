@@ -35,7 +35,7 @@ function App() {
 
   return (
     <div>
-      <h1>Employee Management</h1>
+      <h1>Employeeee Management</h1>
       <input
         type="text"
         placeholder="Search by name"
